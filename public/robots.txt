@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://astertropika.vercel.app
+Host: https://www.astertropikakabil.web.id
 
 # Sitemaps
-Sitemap: https://astertropika.vercel.app/sitemap.xml
+Sitemap: https://www.astertropikakabil.web.id/sitemap.xml
