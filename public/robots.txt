@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://astertropika.vercel.app
+
+# Sitemaps
+Sitemap: https://astertropika.vercel.app/sitemap.xml

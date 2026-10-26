@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://astertropika.vercel.app/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://astertropika.vercel.app/images/og-image.jpg</image:loc>
+      <image:title>Perumahan Aster Tropika at Kabil Batam Cipta Group</image:title>
+      <image:caption>Brosur Resmi dan Promo Cash Bertahap 60x Tanpa Bunga Aster Tropika Kabil</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://astertropika.vercel.app/images/konsep-hunian-tropis.jpg</image:loc>
+      <image:title>Konsep Desain Rumah Tropis Modern Aster Tropika</image:title>
+      <image:caption>Fasad Rumah Mewah Desain Tropis Aster Tropika Kabil Batam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://astertropika.vercel.app/images/siteplan-resmi.jpg</image:loc>
+      <image:title>Siteplan Resmi Aster Tropika at Kabil</image:title>
+      <image:caption>Masterplan Tata Ruang Kavling dan Fasilitas Perumahan Aster Tropika</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://astertropika.vercel.app/images/denah-tipe-30.jpg</image:loc>
+      <image:title>Denah Ruang Tipe 30/60 Aster Tropika</image:title>
+      <image:caption>Denah Arsitektur Tipe 30/60 Rp 295 Juta</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://astertropika.vercel.app/images/denah-tipe-36.jpg</image:loc>
+      <image:title>Denah Ruang Tipe 36+/72 Aster Tropika</image:title>
+      <image:caption>Denah Arsitektur Tipe 36+/72 Sudah Ada Dapurnya Rp 485 Juta</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://astertropika.vercel.app/images/spesifikasi-dan-mutu.jpg</image:loc>
+      <image:title>Spesifikasi dan Mutu Bangunan Aster Tropika</image:title>
+      <image:caption>Standar Material SNI dan Mutu Konstruksi Cipta Group Batam</image:caption>
+    </image:image>
+  </url>
+</urlset>
