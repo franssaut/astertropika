@@ -13,6 +13,7 @@ import FaqSection from './components/FaqSection';
 import Footer from './components/Footer';
 import FloatingCta from './components/FloatingCta';
 import BrochureModal from './components/BrochureModal';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [modalState, setModalState] = useState({
@@ -98,6 +99,9 @@ export default function App() {
         customImage={modalState.customImage}
         customTitle={modalState.customTitle}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
