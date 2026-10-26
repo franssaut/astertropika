@@ -154,8 +154,15 @@ export default function Footer() {
           <p className="text-center sm:text-left">
             © 2026 Aster Tropika at Kabil. Dikembangkan oleh PT Buana Cipta Propertindo (Cipta Group Batam).
           </p>
-          <div className="flex items-center gap-4">
-            <span>Direct Representative: Frans Rumah Batam</span>
+          <div className="flex items-center gap-3">
+            <a
+              href="https://www.astertropikakabil.web.id/"
+              className="font-bold text-secondary hover:text-primary transition-colors"
+            >
+              www.astertropikakabil.web.id
+            </a>
+            <span>•</span>
+            <span>Marketing: Frans Rumah Batam</span>
           </div>
         </div>
       </div>

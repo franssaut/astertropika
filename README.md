@@ -1,5 +1,9 @@
 # Aster Tropika at Kabil - Showcase & Official Website
 
+🔗 **Live Website:** [https://www.astertropikakabil.web.id/](https://www.astertropikakabil.web.id/)  
+🌐 **Sitemap:** [https://www.astertropikakabil.web.id/sitemap.xml](https://www.astertropikakabil.web.id/sitemap.xml)  
+🤖 **Robots.txt:** [https://www.astertropikakabil.web.id/robots.txt](https://www.astertropikakabil.web.id/robots.txt)
+
 Website showcase resmi dan interaktif untuk perumahan **Aster Tropika at Kabil** (dikembangkan oleh **PT Buana Cipta Propertindo / Member of Cipta Group Batam**).
 
 Dibangun menggunakan **React.js (Vite)** dan **Tailwind CSS**, dengan desain arsitektur modern tropis yang elegan, responsif, dan terintegrasi langsung dengan WhatsApp Marketing In-House (**Frans Rumah Batam - 0823-9105-9216**).

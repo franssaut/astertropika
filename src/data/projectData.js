@@ -1,6 +1,7 @@
 export const projectData = {
   title: "Aster Tropika at Kabil",
   tagline: "Rumah Ideal Untuk Keluarga Modern Tropis",
+  website: "https://www.astertropikakabil.web.id",
   logo: "/images/logo.png",
   logoMark: "/images/logo-mark.png",
   logoMarkWhite: "/images/logo-mark-white.png",
