@@ -56,11 +56,15 @@ export default function Hero({ onOpenBrochure }) {
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-on-primary uppercase leading-tight">
-              RUMAH IDEAL <br />
+              ASTER TROPIKA <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary-fixed via-secondary-container to-surface-bright">
-                UNTUK KELUARGA
+                AT KABIL BATAM
               </span>
             </h1>
+
+            <p className="text-xs sm:text-sm font-bold text-secondary-fixed tracking-widest uppercase">
+              Hunian Modern Tropis Eksklusif • Cipta Group Batam
+            </p>
 
             <p className="text-base sm:text-lg text-inverse-primary/95 max-w-2xl leading-relaxed">
               Punya rumah eksklusif di Kabil tanpa proses bank yang ribet? <strong>Bisa banget!</strong> Tersedia kemudahan <strong>Cash Bertahap s/d 60x Tanpa Bunga</strong> langsung ke pengembang, proses mudah pasti disetujui, dan <strong>syarat berkas cukup KTP saja</strong>.
@@ -118,7 +122,9 @@ export default function Hero({ onOpenBrochure }) {
               >
                 <img
                   src="/images/konsep-hunian-tropis.jpg"
-                  alt="Aster Tropika Konsep Hunian Tropis di Kabil Batam"
+                  alt="Aster Tropika Kabil Batam - Rumah Modern Tropis Cipta Group"
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 />
                 

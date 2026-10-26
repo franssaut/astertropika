@@ -80,7 +80,7 @@ export default function DenahRuangSection({ onOpenImage }) {
             Brosur Denah Resmi Aster Tropika
           </div>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-primary tracking-tight">
-            Denah Tata Ruang: Tipe 30/60 & Tipe 36+/72
+            Denah Tata Ruang: Tipe 30/60 & Tipe 36+/72 Aster Tropika Kabil
           </h2>
           <p className="text-xs sm:text-base text-on-surface-variant max-w-xl mt-2">
             Perbandingan tata letak ruangan untuk hunian keluarga ideal. Khusus <strong>Tipe 36+/72 sudah ada dapurnya</strong> di dalam rumah siap pakai.
@@ -138,7 +138,9 @@ export default function DenahRuangSection({ onOpenImage }) {
                 >
                   <img
                     src={denah.image}
-                    alt={`Brosur Denah Ruang ${denah.title}`}
+                    alt={`Brosur Denah Tata Ruang ${denah.title} Aster Tropika Kabil Batam Cipta Group - Harga ${denah.price}`}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-contain transition-transform duration-700 ease-out group-hover:scale-105"
                   />
                 </div>

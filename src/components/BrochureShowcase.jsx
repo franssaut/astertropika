@@ -71,7 +71,9 @@ export default function BrochureShowcase({ onOpenModal }) {
                 <div className="aspect-[4/3] sm:aspect-[16/10] w-full flex items-center justify-center bg-black/5">
                   <img
                     src={activeScreen.image}
-                    alt={activeScreen.title}
+                    alt={`${activeScreen.title} - Brosur Resmi Aster Tropika Kabil Batam Cipta Group`}
+                    loading="lazy"
+                    decoding="async"
                     className="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-103"
                   />
                 </div>

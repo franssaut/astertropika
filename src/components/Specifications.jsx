@@ -32,7 +32,9 @@ export default function Specifications({ onOpenImage }) {
               <div className="relative w-full h-full min-h-[460px] flex items-center justify-center bg-primary-container overflow-hidden">
                 <img
                   src={posterImage}
-                  alt="Poster Spesifikasi dan Mutu Aster Tropika Kabil"
+                  alt="Poster Spesifikasi dan Mutu Bangunan Aster Tropika Kabil Batam Cipta Group"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover sm:object-contain transition-transform duration-700 group-hover:scale-105"
                 />
                 
