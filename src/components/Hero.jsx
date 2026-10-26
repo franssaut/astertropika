@@ -19,6 +19,10 @@ export default function Hero({ onOpenBrochure }) {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-8 pb-16 lg:pt-14 lg:pb-24">
         {/* Top Badges */}
         <div className="flex flex-wrap items-center gap-2 mb-6">
+          <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white text-primary text-xs font-extrabold shadow-md">
+            <img src="/images/logo-mark.png" alt="Logo Aster Tropika" className="w-4 h-4 object-contain" />
+            <span>ASTER TROPIKA</span>
+          </span>
           <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-xs font-extrabold uppercase tracking-wider shadow-md">
             <span className="material-symbols-outlined text-[16px]">
               local_fire_department

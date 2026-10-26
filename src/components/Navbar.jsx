@@ -35,11 +35,15 @@ export default function Navbar({ onOpenBrochure }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex items-center justify-between">
         {/* Brand Logo */}
         <a href="#beranda" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center text-secondary-fixed shadow-sm group-hover:scale-105 transition-transform">
-            <span className="material-symbols-outlined text-[24px]">deck</span>
+          <div className="w-11 h-11 rounded-xl bg-white flex items-center justify-center p-1.5 shadow-sm border border-outline-variant/30 group-hover:scale-105 transition-transform shrink-0">
+            <img
+              src="/images/logo-mark.png"
+              alt="Logo Aster Tropika at Kabil"
+              className="w-full h-full object-contain"
+            />
           </div>
           <div className="flex flex-col">
-            <span className="font-bold text-lg text-primary tracking-tight leading-tight group-hover:text-primary-container transition-colors">
+            <span className="font-extrabold text-lg text-primary tracking-tight leading-tight group-hover:text-primary-container transition-colors">
               ASTER TROPIKA
             </span>
             <span className="text-[11px] font-semibold text-secondary tracking-widest uppercase leading-none mt-0.5">

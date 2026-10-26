@@ -26,3 +26,5 @@ stitch_extracted/
 *.njsproj
 *.sln
 *.sw?
+
+.vercel

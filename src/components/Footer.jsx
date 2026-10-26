@@ -8,13 +8,22 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 pb-12 border-b border-outline-variant/30">
           {/* Brand Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-secondary-fixed shadow-sm">
-                <span className="material-symbols-outlined text-[20px]">deck</span>
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center p-1.5 shadow-sm border border-outline-variant/30 shrink-0">
+                <img
+                  src="/images/logo-mark.png"
+                  alt="Logo Aster Tropika"
+                  className="w-full h-full object-contain"
+                />
               </div>
-              <span className="font-extrabold text-base tracking-tight text-primary">
-                ASTER TROPIKA
-              </span>
+              <div className="flex flex-col">
+                <span className="font-extrabold text-base tracking-tight text-primary leading-tight">
+                  ASTER TROPIKA
+                </span>
+                <span className="text-[10px] uppercase font-bold text-secondary tracking-widest leading-none mt-0.5">
+                  At Kabil • Batam
+                </span>
+              </div>
             </div>
             <p className="text-xs sm:text-sm text-on-surface-variant leading-relaxed">
               Hunian modern bernuansa tropis asri di kawasan berkembang Kabil, Batam. Persembahan developer terkemuka Cipta Group untuk gaya hidup keluarga yang berkualitas dan aman.
