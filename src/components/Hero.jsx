@@ -6,12 +6,10 @@ export default function Hero({ onOpenBrochure }) {
     <section className="relative w-full overflow-hidden bg-primary text-on-primary pt-24 sm:pt-28" id="beranda">
       {/* Ambient Backdrop Image & Gradients */}
       <div className="absolute inset-0 z-0">
-        <img
-          src="/images/hero-estate.jpg"
-          alt="Perumahan Modern Aster Tropika at Kabil Batam Cipta Group"
-          width="1280"
-          height="720"
-          className="w-full h-full object-cover object-center opacity-35 mix-blend-luminosity scale-105 filter blur-[1px] transition-transform duration-1000 ease-out hover:scale-110"
+        <div
+          role="presentation"
+          style={{ backgroundImage: `url('/images/hero-estate.jpg')` }}
+          className="w-full h-full bg-cover bg-center opacity-35 mix-blend-luminosity scale-105 filter blur-[1px] transition-transform duration-1000 ease-out hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/85 to-primary/45"></div>
         <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
@@ -125,8 +123,8 @@ export default function Hero({ onOpenBrochure }) {
                 <img
                   src="/images/konsep-hunian-tropis.jpg"
                   alt="Aster Tropika Kabil Batam - Rumah Modern Tropis Cipta Group"
-                  width="800"
-                  height="1067"
+                  width="1528"
+                  height="2048"
                   fetchPriority="high"
                   decoding="async"
                   className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"

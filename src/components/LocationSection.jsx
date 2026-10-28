@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { projectData } from '../data/projectData';
 
 export default function LocationSection() {
-  const [mapMode, setMapMode] = useState('embed'); // 'embed' or 'visual'
+  const [mapMode, setMapMode] = useState('visual'); // 'visual' facade by default to prevent third-party cookies on initial load
   const [copied, setCopied] = useState(false);
 
   const coords = projectData.locationCoordinates;
@@ -141,10 +141,22 @@ export default function LocationSection() {
                   />
                 ) : (
                   <div
-                    className="w-full h-full bg-cover bg-center overflow-hidden relative group"
+                    onClick={() => setMapMode('embed')}
+                    className="w-full h-full bg-cover bg-center overflow-hidden relative group cursor-pointer"
                     style={{ backgroundImage: `url('/images/peta-lokasi.jpg')` }}
                   >
-                    <div className="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-colors"></div>
+                    <div className="absolute inset-0 bg-primary/25 group-hover:bg-primary/15 transition-colors flex items-center justify-center">
+                      <button
+                        type="button"
+                        onClick={() => setMapMode('embed')}
+                        className="bg-surface-container-lowest/95 hover:bg-white text-primary px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold shadow-xl flex items-center gap-2 backdrop-blur-md transition-transform group-hover:scale-105"
+                      >
+                        <span className="material-symbols-outlined text-[18px] text-secondary">
+                          map
+                        </span>
+                        <span>Klik untuk Muat Google Maps Interaktif</span>
+                      </button>
+                    </div>
                     <div className="absolute top-4 left-4 bg-primary/90 text-on-primary px-3.5 py-1.5 rounded-xl text-xs backdrop-blur-md flex items-center gap-1.5 shadow-md">
                       <span className="material-symbols-outlined text-secondary-fixed text-[16px]">
                         pin_drop
