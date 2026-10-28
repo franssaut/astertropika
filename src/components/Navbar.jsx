@@ -39,6 +39,8 @@ export default function Navbar({ onOpenBrochure }) {
             <img
               src="/images/logo-mark.png"
               alt="Logo Aster Tropika at Kabil"
+              width="32"
+              height="32"
               className="w-full h-full object-contain"
             />
           </div>

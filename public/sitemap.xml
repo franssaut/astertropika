@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.astertropikakabil.web.id/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -35,6 +35,16 @@
       <image:loc>https://www.astertropikakabil.web.id/images/spesifikasi-dan-mutu.jpg</image:loc>
       <image:title>Spesifikasi dan Mutu Bangunan Aster Tropika</image:title>
       <image:caption>Standar Material SNI dan Mutu Konstruksi Cipta Group Batam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.astertropikakabil.web.id/images/tipe-30-fasad.jpg</image:loc>
+      <image:title>Fasad Rumah Tipe 30/60 Aster Tropika Kabil</image:title>
+      <image:caption>Tampilan Depan Unit Tipe 30/60 Modern Tropis Aster Tropika Batam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.astertropikakabil.web.id/images/tipe-36-fasad.jpg</image:loc>
+      <image:title>Fasad Rumah Tipe 36+/72 Aster Tropika Kabil</image:title>
+      <image:caption>Tampilan Depan Unit Tipe 36+/72 Lengkap dengan Dapur Aster Tropika Batam</image:caption>
     </image:image>
   </url>
 </urlset>

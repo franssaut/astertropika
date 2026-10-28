@@ -9,6 +9,8 @@ export default function Hero({ onOpenBrochure }) {
         <img
           src="/images/hero-estate.jpg"
           alt="Perumahan Modern Aster Tropika at Kabil Batam Cipta Group"
+          width="1280"
+          height="720"
           className="w-full h-full object-cover object-center opacity-35 mix-blend-luminosity scale-105 filter blur-[1px] transition-transform duration-1000 ease-out hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/85 to-primary/45"></div>
@@ -20,7 +22,7 @@ export default function Hero({ onOpenBrochure }) {
         {/* Top Badges */}
         <div className="flex flex-wrap items-center gap-2 mb-6">
           <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white text-primary text-xs font-extrabold shadow-md">
-            <img src="/images/logo-mark.png" alt="Logo Aster Tropika" className="w-4 h-4 object-contain" />
+            <img src="/images/logo-mark.png" alt="Logo Aster Tropika" width="16" height="16" className="w-4 h-4 object-contain" />
             <span>ASTER TROPIKA</span>
           </span>
           <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-xs font-extrabold uppercase tracking-wider shadow-md">
@@ -123,6 +125,8 @@ export default function Hero({ onOpenBrochure }) {
                 <img
                   src="/images/konsep-hunian-tropis.jpg"
                   alt="Aster Tropika Kabil Batam - Rumah Modern Tropis Cipta Group"
+                  width="800"
+                  height="1067"
                   fetchPriority="high"
                   decoding="async"
                   className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
@@ -143,9 +147,9 @@ export default function Hero({ onOpenBrochure }) {
                     <span className="text-[11px] uppercase tracking-wider text-secondary-fixed font-bold block">
                       Aster Tropika Residence
                     </span>
-                    <h3 className="text-xs sm:text-sm font-bold text-white leading-tight">
+                    <h2 className="text-xs sm:text-sm font-bold text-white leading-tight">
                       Hunian Modern Tropis di Kabil
-                    </h3>
+                    </h2>
                   </div>
                   <span className="px-2.5 py-1 bg-secondary-container text-on-secondary-container text-[11px] rounded-lg font-bold">
                     Cipta Group
