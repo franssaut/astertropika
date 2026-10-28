@@ -2,9 +2,9 @@ export const projectData = {
   title: "Aster Tropika at Kabil",
   tagline: "Rumah Ideal Untuk Keluarga Modern Tropis",
   website: "https://www.astertropikakabil.web.id",
-  logo: "/images/logo.png",
-  logoMark: "/images/logo-mark.png",
-  logoMarkWhite: "/images/logo-mark-white.png",
+  logo: "/images/logo.webp",
+  logoMark: "/images/logo-mark.webp",
+  logoMarkWhite: "/images/logo-mark-white.webp",
   developer: {
     name: "PT Buana Cipta Propertindo",
     group: "Cipta Group Batam",
@@ -113,9 +113,9 @@ export const projectData = {
       bedrooms: 2,
       bathrooms: 1,
       hasKitchen: false,
-      image: "/images/tipe-30.jpg",
-      floorPlanImage: "/images/denah-tipe-30-poster.jpg",
-      posterImage: "/images/denah-tipe-30-poster.jpg",
+      image: "/images/tipe-30.webp",
+      floorPlanImage: "/images/denah-tipe-30-poster.webp",
+      posterImage: "/images/denah-tipe-30-poster.webp",
       keySpecs: [
         { label: "Pondasi", val: "Beton Bertulang SNI" },
         { label: "Lantai", val: "Keramik 30x30 cm" },
@@ -150,9 +150,9 @@ export const projectData = {
       bedrooms: 2,
       bathrooms: 1,
       hasKitchen: true,
-      image: "/images/tipe-36.jpg",
-      floorPlanImage: "/images/denah-tipe-36-poster.jpg",
-      posterImage: "/images/denah-tipe-36-poster.jpg",
+      image: "/images/tipe-36.webp",
+      floorPlanImage: "/images/denah-tipe-36-poster.webp",
+      posterImage: "/images/denah-tipe-36-poster.webp",
       keySpecs: [
         { label: "Pondasi", val: "Beton Bertulang SNI" },
         { label: "Dapur", val: "Sudah Ada Dapurnya" },
@@ -179,7 +179,7 @@ export const projectData = {
       title: "Fasad & Konsep Arsitektur Utama",
       subtitle: "Aster Tropika - Rumah Mewah Desain Tropis Modern",
       category: "Fasad Utama",
-      image: "/images/konsep-hunian-tropis.jpg",
+      image: "/images/konsep-hunian-tropis.webp",
       description: "Tampilan visual fasad rumah modern tropis dengan perpaduan aksen batu alam, roster ventilasi, jendela lebar, dan carport beratap rapi."
     },
     {
@@ -189,7 +189,7 @@ export const projectData = {
       title: "Siteplan Resmi Kawasan Aster Tropika",
       subtitle: "Masterplan Blok & Tata Letak Lingkungan Perumahan",
       category: "Siteplan",
-      image: "/images/siteplan-resmi.jpg",
+      image: "/images/siteplan-resmi.webp",
       description: "Denah siteplan resmi Aster Tropika Kabil dari Cipta Group. Menampilkan zonasi blok unit hunian, jalan utama ROW 20M, jalan lingkungan ROW 7M - 8M, serta area fasilitas perumahan terpadu."
     },
     {
@@ -199,7 +199,7 @@ export const projectData = {
       title: "Denah Ruang & Tata Letak",
       subtitle: "Denah Tipe 30/60 & Tipe 36+/72",
       category: "Denah Ruang",
-      image: "/images/brochure/brochure-3-denah-ruang.jpeg",
+      image: "/images/brochure/brochure-3-denah-ruang.webp",
       description: "Gambar teknis denah arsitektur skala proporsional dengan dimensi ruang tamu, kamar tidur utama, kamar tidur anak, kamar mandi, carport, dan taman."
     },
     {
@@ -209,7 +209,7 @@ export const projectData = {
       title: "Spesifikasi Teknis & Mutu Bangunan",
       subtitle: "Brosur Resmi Spesifikasi & Standar Mutu Cipta Group",
       category: "Spesifikasi & Mutu",
-      image: "/images/spesifikasi-dan-mutu.jpg",
+      image: "/images/spesifikasi-dan-mutu.webp",
       description: "Lembar spesifikasi dan mutu resmi bangunan Aster Tropika at Kabil, mencakup pondasi beton bertulang, dinding batako press, atap spandek baja ringan, hingga instalasi listrik PLN dan air SPAM."
     },
     {
@@ -219,7 +219,7 @@ export const projectData = {
       title: "Fasilitas & Keunggulan Lingkungan",
       subtitle: "One Gate System, Taman Hijau, & Sarana Terdekat",
       category: "Fasilitas & Akses",
-      image: "/images/brochure/brochure-5-fasilitas-akses.jpeg",
+      image: "/images/brochure/brochure-5-fasilitas-akses.webp",
       description: "Visualisasi fasilitas keamanan gerbang otomatis one gate system, taman komunal asri, serta jarak tempuh ke pusat belanja dan sarana umum."
     }
   ],
@@ -227,14 +227,14 @@ export const projectData = {
     {
       title: "One Gate System & Pos Jaga",
       badge: "Security 24 Jam",
-      image: "/images/one-gate.jpg",
+      image: "/images/one-gate.webp",
       icon: "vpn_key",
       description: "Akses pintu masuk tunggal yang dikontrol ketat oleh personel keamanan dan barrier gate. Menjamin ketenangan bagi anak-anak saat bermain di lingkungan perumahan serta privasi setiap keluarga."
     },
     {
       title: "Taman Tematik & Jogging Track",
       badge: "Area Terbuka Hijau",
-      image: "/images/taman.jpg",
+      image: "/images/taman.webp",
       icon: "park",
       description: "Taman komunal dengan tanaman peneduh tropis dan area duduk santai untuk berolahraga pagi maupun melepas penat sore hari bersama tetangga."
     },

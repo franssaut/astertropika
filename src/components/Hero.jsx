@@ -8,7 +8,7 @@ export default function Hero({ onOpenBrochure }) {
       <div className="absolute inset-0 z-0">
         <div
           role="presentation"
-          style={{ backgroundImage: `url('/images/hero-estate.jpg')` }}
+          style={{ backgroundImage: `url('/images/hero-estate.webp')` }}
           className="w-full h-full bg-cover bg-center opacity-35 mix-blend-luminosity scale-105 filter blur-[1px] transition-transform duration-1000 ease-out hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/85 to-primary/45"></div>
@@ -20,7 +20,7 @@ export default function Hero({ onOpenBrochure }) {
         {/* Top Badges */}
         <div className="flex flex-wrap items-center gap-2 mb-6">
           <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white text-primary text-xs font-extrabold shadow-md">
-            <img src="/images/logo-mark.png" alt="Logo Aster Tropika" width="16" height="16" className="w-4 h-4 object-contain" />
+            <img src="/images/logo-mark.webp" alt="Logo Aster Tropika" width="16" height="16" className="w-4 h-4 object-contain" />
             <span>ASTER TROPIKA</span>
           </span>
           <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-xs font-extrabold uppercase tracking-wider shadow-md">
@@ -121,7 +121,7 @@ export default function Hero({ onOpenBrochure }) {
                 onClick={() => onOpenBrochure && onOpenBrochure(0)}
               >
                 <img
-                  src="/images/konsep-hunian-tropis.jpg"
+                  src="/images/konsep-hunian-tropis.webp"
                   alt="Aster Tropika Kabil Batam - Rumah Modern Tropis Cipta Group"
                   width="1528"
                   height="2048"

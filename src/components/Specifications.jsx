@@ -2,7 +2,7 @@ import React from 'react';
 import { projectData } from '../data/projectData';
 
 export default function Specifications({ onOpenImage }) {
-  const posterImage = '/images/spesifikasi-dan-mutu.jpg';
+  const posterImage = '/images/spesifikasi-dan-mutu.webp';
 
   return (
     <section className="w-full py-16 lg:py-24 bg-surface-container-low text-on-surface" id="spesifikasi">

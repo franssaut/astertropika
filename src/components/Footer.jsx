@@ -11,8 +11,10 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center p-1.5 shadow-sm border border-outline-variant/30 shrink-0">
                 <img
-                  src="/images/logo-mark.png"
+                  src="/images/logo-mark.webp"
                   alt="Logo Aster Tropika"
+                  width="32"
+                  height="32"
                   className="w-full h-full object-contain"
                 />
               </div>

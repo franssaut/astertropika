@@ -6,10 +6,18 @@ export default function Navbar({ onOpenBrochure }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const isScrolled = window.scrollY > 20;
+          setScrolled(isScrolled);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -37,7 +45,7 @@ export default function Navbar({ onOpenBrochure }) {
         <a href="#beranda" className="flex items-center gap-3 group">
           <div className="w-11 h-11 rounded-xl bg-white flex items-center justify-center p-1.5 shadow-sm border border-outline-variant/30 group-hover:scale-105 transition-transform shrink-0">
             <img
-              src="/images/logo-mark.png"
+              src="/images/logo-mark.webp"
               alt="Logo Aster Tropika at Kabil"
               width="32"
               height="32"

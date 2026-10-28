@@ -24,7 +24,7 @@ export default function Facilities() {
           <div className="lg:col-span-7 bg-surface-container-lowest rounded-3xl overflow-hidden shadow-sm card-lift-hover flex flex-col justify-between group border border-outline-variant/30">
             <div className="relative aspect-[16/10] w-full overflow-hidden bg-primary-container">
               <img
-                src="/images/one-gate.jpg"
+                src="/images/one-gate.webp"
                 alt="One Gate System Aster Tropika Kabil Batam"
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-106"
               />
@@ -51,7 +51,7 @@ export default function Facilities() {
             <div className="bg-surface-container-lowest rounded-3xl overflow-hidden shadow-sm card-lift-hover p-6 flex flex-col justify-between group border border-outline-variant/30">
               <div className="aspect-[16/9] rounded-2xl overflow-hidden mb-4 relative bg-primary-container">
                 <img
-                  src="/images/taman.jpg"
+                  src="/images/taman.webp"
                   alt="Taman Tematik dan Jogging Track Aster Tropika Kabil"
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-106"
                 />
