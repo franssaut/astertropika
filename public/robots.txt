@@ -1,3 +1,42 @@
+# ========================================================
+# robots.txt for Aster Tropika at Kabil
+# Domain: https://www.astertropikakabil.web.id
+# ========================================================
+
+# Google Search Main Crawler (Desktop & Mobile)
+User-agent: Googlebot
+Allow: /
+Allow: /images/
+Allow: /assets/
+
+# Googlebot Image Crawler (Brosur & Denah)
+User-agent: Googlebot-Image
+Allow: /
+Allow: /images/
+
+# Google Search Console Inspection Tool
+User-agent: Google-InspectionTool
+Allow: /
+
+# Google Ads Crawlers
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+# Google AdSense / Media Partners
+User-agent: Mediapartners-Google
+Allow: /
+
+# Google AI & Extended Search Crawlers
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Default Rules for All Other Search Engines
 User-agent: *
 Allow: /
 
