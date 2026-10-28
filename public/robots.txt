@@ -4,9 +4,6 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-User-agent: Googlebot-Mobile
-Allow: /
-
 User-agent: Googlebot-News
 Allow: /
 
@@ -20,6 +17,15 @@ User-agent: Mediapartners-Google
 Allow: /
 
 User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: Storebot-Google
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-Extended
 Allow: /
 
 User-agent: Bingbot
