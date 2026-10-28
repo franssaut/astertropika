@@ -116,10 +116,11 @@ export default function ContactForm() {
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-1">
-                    <label className="text-xs font-bold text-on-surface block">
+                    <label htmlFor="contact-name" className="text-xs font-bold text-on-surface block">
                       Nama Lengkap
                     </label>
                     <input
+                      id="contact-name"
                       type="text"
                       name="name"
                       required
@@ -131,11 +132,13 @@ export default function ContactForm() {
                   </div>
 
                   <div className="space-y-1">
-                    <label className="text-xs font-bold text-on-surface block">
+                    <label htmlFor="contact-unit" className="text-xs font-bold text-on-surface block">
                       Peminatan Tipe Rumah
                     </label>
                     <select
+                      id="contact-unit"
                       name="unit"
+                      aria-label="Peminatan Tipe Rumah"
                       value={formData.unit}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary text-xs sm:text-sm border border-outline-variant/30"
@@ -150,11 +153,13 @@ export default function ContactForm() {
                 </div>
 
                 <div className="space-y-1">
-                  <label className="text-xs font-bold text-on-surface block">
+                  <label htmlFor="contact-intent" className="text-xs font-bold text-on-surface block">
                     Kebutuhan Utama
                   </label>
                   <select
+                    id="contact-intent"
                     name="intent"
+                    aria-label="Kebutuhan Utama"
                     value={formData.intent}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary text-xs sm:text-sm border border-outline-variant/30"
@@ -178,10 +183,11 @@ export default function ContactForm() {
                 </div>
 
                 <div className="space-y-1">
-                  <label className="text-xs font-bold text-on-surface block">
+                  <label htmlFor="contact-notes" className="text-xs font-bold text-on-surface block">
                     Catatan Tambahan (Opsional)
                   </label>
                   <textarea
+                    id="contact-notes"
                     name="notes"
                     rows="2"
                     placeholder="Tuliskan jika ingin dijadwalkan survei hari Sabtu/Minggu..."
