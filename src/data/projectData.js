@@ -18,16 +18,17 @@ export const projectData = {
     title: "Senior Property Consultant",
     phone: "0823-9105-9216",
     phoneRaw: "6282391059216",
+    facebook: "https://www.facebook.com/frans.sautH",
     status: "Marketing In-House Resmi Cipta Group",
     notes: "Siap mendampingi survei lokasi, skema cash bertahap 60x tanpa bunga (cukup KTP), dan pemilihan unit terbaik."
   },
   locationCoordinates: {
-    lat: 1.082582,
-    lng: 104.116634,
-    display: "1.082582, 104.116634",
-    mapsUrl: "https://www.google.com/maps?q=1.082582,104.116634",
-    directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=1.082582,104.116634",
-    embedUrl: "https://maps.google.com/maps?q=1.082582,104.116634&hl=id&z=16&output=embed"
+    lat: 1.082523,
+    lng: 104.117170,
+    display: "1.082523, 104.117170",
+    mapsUrl: "https://www.google.com/maps?q=1.082523,104.117170",
+    directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=1.082523,104.117170",
+    embedUrl: "https://maps.google.com/maps?q=1.082523,104.117170&hl=id&z=16&output=embed"
   },
   paymentPromo: {
     title: "Cash Bertahap s/d 60x Tanpa Bunga",

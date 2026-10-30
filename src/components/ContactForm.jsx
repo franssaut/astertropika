@@ -59,6 +59,31 @@ export default function ContactForm() {
 
               {/* Contact Cards */}
               <div className="space-y-3 pt-2">
+                {projectData.marketing.facebook && (
+                  <div className="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low card-lift-hover border border-[#1877F2]/20">
+                    <div className="w-10 h-10 rounded-xl bg-[#1877F2] text-white flex items-center justify-center shrink-0 shadow-sm">
+                      <svg className="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="12" fill="#1877F2" />
+                        <path d="M15.12 12.72l.46-3h-2.88V7.77c0-.82.4-1.62 1.69-1.62h1.31V3.59s-1.19-.2-2.33-.2c-2.38 0-3.93 1.44-3.93 4.05v2.28H6.8v3h2.64v7.26c.53.08 1.07.13 1.62.13s1.09-.05 1.62-.13v-7.26h2.44z" fill="#ffffff" />
+                      </svg>
+                    </div>
+                    <div className="flex-1">
+                      <span className="text-[11px] text-on-surface-variant block">
+                        Facebook Profil Resmi
+                      </span>
+                      <a
+                        href={projectData.marketing.facebook}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs sm:text-sm font-bold text-primary hover:text-secondary transition-colors inline-flex items-center gap-1"
+                      >
+                        <span>facebook.com/frans.sautH</span>
+                        <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+                      </a>
+                    </div>
+                  </div>
+                )}
+
                 <div className="flex items-center gap-3 p-3.5 rounded-2xl bg-surface-container-low card-lift-hover">
                   <div className="w-10 h-10 rounded-xl bg-tertiary-container text-on-tertiary flex items-center justify-center shrink-0">
                     <span className="material-symbols-outlined text-[20px]">phone_in_talk</span>
