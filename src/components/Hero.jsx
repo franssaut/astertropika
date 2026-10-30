@@ -3,7 +3,7 @@ import { projectData } from '../data/projectData';
 
 export default function Hero({ onOpenBrochure }) {
   return (
-    <section className="relative w-full overflow-hidden bg-primary text-on-primary pt-28 sm:pt-32 lg:pt-36" id="beranda">
+    <section className="relative w-full overflow-hidden bg-primary text-on-primary pt-24 sm:pt-28" id="beranda">
       {/* Ambient Backdrop Image & Gradients */}
       <div className="absolute inset-0 z-0">
         <div
